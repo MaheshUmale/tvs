@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://scanner.tradingview.com/america/scan';
+const API_URL = '/api/scan';
 
 export const getScreenerData = async (query) => {
   try {
